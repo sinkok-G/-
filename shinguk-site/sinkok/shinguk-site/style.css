@@ -1,0 +1,113 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:#0a0a0a;
+  color:#f5f5f5;
+  font-family:Pretendard,sans-serif;
+}
+
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+
+  padding:24px 80px;
+
+  position:fixed;
+  width:100%;
+}
+
+.logo{
+  font-size:28px;
+  font-weight:700;
+}
+
+nav{
+  display:flex;
+  gap:40px;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+}
+
+.hero{
+  height:100vh;
+
+  display:flex;
+  align-items:center;
+
+  padding:0 80px;
+
+  background:
+  linear-gradient(
+    rgba(0,0,0,.7),
+    rgba(0,0,0,.7)
+  ),
+  url("assets/images/hero.jpg");
+
+  background-size:cover;
+  background-position:center;
+}
+
+.hero h1{
+  font-size:64px;
+  line-height:1.2;
+}
+
+.hero p{
+  margin-top:20px;
+  font-size:22px;
+}
+
+.hero-buttons{
+  margin-top:40px;
+}
+
+.btn-primary{
+  background:#b8935f;
+  color:white;
+  padding:14px 32px;
+  text-decoration:none;
+}
+
+.btn-secondary{
+  border:1px solid #b8935f;
+  color:#b8935f;
+  padding:14px 32px;
+  text-decoration:none;
+}
+
+section{
+  padding:120px 80px;
+}
+
+.cards{
+  display:grid;
+  grid-template-columns:
+  repeat(4,1fr);
+
+  gap:30px;
+}
+
+.card{
+  background:#151515;
+  padding:40px;
+}
+
+.card:hover{
+  border:1px solid #b8935f;
+}
+
+.strength-grid{
+  display:grid;
+  grid-template-columns:
+  repeat(4,1fr);
+
+  gap:30px;
+}
